@@ -1,0 +1,93 @@
+footer {
+    position: relative;
+    min-height: 200px;
+    background-color: #25333c;
+    padding: 24px 0 36px 0;
+
+    .globalopt {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 1px 15px;
+       &__logo {
+        width: 68px;
+        height: 71px;
+       }
+       &_descr {
+        
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #ffffff;
+       }
+       .ask_footer {
+           text-align: right;
+           &_call{
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+            &_phone {
+                font-size: 19px;
+                line-height: 24px;
+                font-weight: 700;
+                color: #ffffff;
+                &:hover {
+                    text-decoration: none;
+                    color: $text_color;
+                }
+            }
+        }
+        .call_back {
+            width: 160px;
+            height: 45px;
+
+            font-size: 12px;
+            line-height: 22px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+    }
+
+    hr{
+        width: 100%;
+        height: 1px;
+        opacity: 0.3;
+        background-color: white;
+        border: none;
+    }
+    .copy {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px 15px;
+        &_right {
+            opacity: 0.6;   
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        &_politic {
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300; 
+            a{
+                color: $text_color;
+            }
+        }
+        &_copy {
+            opacity: 0.6;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+
+}
+
+

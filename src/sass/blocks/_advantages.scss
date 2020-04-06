@@ -1,0 +1,28 @@
+.advantages {
+    min-height: 580px;
+    background-color: #f3f3f3;
+    padding: 58px 2px 70px 2px;
+    &_wrap_item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 36px;
+        img{
+            width: 57px;
+            height: 56px;
+        }
+        .descr {
+            padding: 0 0 0 17px;
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+}
+
+span {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: $text_color;
+}

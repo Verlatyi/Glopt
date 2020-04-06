@@ -1,0 +1,17 @@
+button {
+    background-color: #ec644b;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff; 
+    &:focus {
+        outline: 0;
+    }
+    &:hover {
+        opacity: 0.8;
+        transition: all 1s;
+        box-shadow: 0 0 50px rgb(79,10,15);
+        cursor: pointer;
+    }
+ 
+}

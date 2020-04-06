@@ -1,0 +1,27 @@
+.scheme {
+    min-height: 454px;
+    padding: 50px 0;
+    background-color: #f3f3f3;
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+    &_wrap_item {
+        img{
+            height: 55px;
+            width: 50px;
+        }
+        margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .descr {
+                margin-top: 10px;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 300;
+                color: #3a3a3a;
+            }
+    }
+}

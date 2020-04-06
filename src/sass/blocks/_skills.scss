@@ -1,0 +1,32 @@
+.skills {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &_descr {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+    }
+    &_wrap_item {
+        margin-top: 37px;
+        img {
+            height: 210px;
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            &:hover {
+                opacity: 0.8;
+                transition: all 1s;
+            }
+        }
+        .descr {
+            margin-top: 27px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+
+}

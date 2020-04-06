@@ -1,0 +1,22 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'base/variables';
+@import 'base/main';
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/skills';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/form_consultation';
+@import 'blocks/managers';
+@import 'blocks/scheme';
+@import 'blocks/reviews';
+@import 'blocks/form_question';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'base/media';

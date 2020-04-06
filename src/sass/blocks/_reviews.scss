@@ -1,0 +1,79 @@
+.reviews {
+    min-height: 620px;
+    padding: 51px 0 60px 0;
+    .descr {
+        margin-top: 17px;
+        text-align: center;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+    }
+    .slider {
+        position: relative;
+        margin-top: 30px;
+        padding: 0px 39px;
+        /* ограничевающая оболочка */
+        .slick-list{
+            overflow: hidden; //помещаем в рамки контейнера
+            
+        }
+        /* лента слайдеров */
+        .slick-track {
+            display: flex;
+            align-items: flex-start;
+        }
+        /* обращение к стрелкам */
+        .slick-arrow {
+            position: absolute;
+            top: 50%;
+            margin: -100px 420px 0 420px;
+            z-index: 1;
+            font-size: 0;
+            width: 14px;
+            height: 46px;
+            border: none;
+        }
+        .slick-prev{
+            left: 0;
+            background: url("../img/reviews/arrow_prev.png")0 0 / 100% no-repeat;
+            
+        }
+        .slick-next {
+            right: 0;
+            background: url("../img/reviews/arrow_next.png")0 0 / 100% no-repeat;
+            
+        }
+        /* cами элементы внутри моего слайдера */
+        .slider__item {
+            
+            transition: all 2s ease 0s;
+            opacity: 0.3;
+            text-align: center;
+            &_user {
+                margin-top: 19px;
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: 700;
+                color: #3a3a3a;
+            }
+            &_descr {
+                padding: 15px;
+                text-align: center;
+                font-size: 14.1px;
+                font-weight: 300;
+                
+            }
+        }
+        /* центральный элемент слайдера */
+        .slick-center {
+            opacity: 1;
+            margin-top: 20px;
+            img {
+                transition: all 2s ease 0s;
+                 zoom: 1.3; 
+            }
+        }
+
+    }
+}

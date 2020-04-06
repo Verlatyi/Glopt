@@ -1,0 +1,409 @@
+@media (max-width: 1200px) {
+    header {
+        .head {
+            .menu{
+                text-align: center;
+                line-height: 12px;
+                &_link {
+                    line-height: 16px;
+                }
+            }
+            .ask {
+                &_call{
+                    text-align: center;
+                    font-size: 12px;
+                    line-height: 19px;
+                }
+                &_phone {
+                    font-size: 14px;
+                }
+            }
+            .call_back{
+                width: 130px;
+                font-size: 11px;
+            }
+        }
+    }
+    .reviews {
+        min-height: 500px;
+    }
+  
+}
+
+@media (max-width: 991px) {
+    header {
+        .head {
+            justify-content: flex-start;
+            .menu {
+                position: fixed;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                top: 0;
+                left: -100%;
+                width: 50%;
+                height: 100vh; //во всю высоту занимаемого пространства
+                padding: 20px 15px;
+                background-color: rgba(0,0,0, .9);
+                transition: 0.6s all;
+                &_active {
+                    left: 0;
+                }
+                &_item {
+                    padding-right: 0;
+                    border: none;
+                    margin: 10px 0;
+                }
+                &_link {
+                    font-size: 20px;
+                }
+            }
+            .hamburger {
+                display: block;
+                position: absolute;
+                left: 75%;
+                top: 50%;
+                width: 26px;
+                height: 18px;
+                
+                span {
+                    display: block;
+                    height: 3px;
+                    width: 100%;
+                    background-color: #fff ;
+                    margin-bottom: 4px;
+                    transition: 0.5s all;
+                }
+                &_active{
+                    span {
+                        margin-bottom: -2px;
+                        &:nth-child(1) {
+                            transform: translateY(3px) rotate(-135deg); }
+                        &:nth-child(2) {
+                            display: none;}
+                        &:nth-child(3){
+                            transform: translateY(3px) rotate(135deg);}
+                    }
+                }
+            }
+            .ask {
+                text-align: center;
+                width: 250px;
+                padding: 0 20px 0 20px;
+                &_call{
+                    text-align: center;
+                    font-size: 14px;
+                }
+                &_phone {
+                    font-size: 17px;
+                    
+                }
+            }
+        }
+    }
+
+    .promo {
+        min-height: 580px;
+        &_before_title {
+            font-size: 20px;
+        }
+        &_title {
+            font-size: 45px;
+        }
+        &_sub_title {
+            font-size: 28px;
+        }
+        &_elwrapper {
+            &_item {
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    max-width: 100%;
+                    height: 40px;
+                }
+                .text {
+                    font-size: 14px;
+                }
+            }
+            margin-bottom: 30px;
+        }
+        &_get_btn {
+            width: 200px;
+            height: 47px;
+            font-size: 15px;
+        }
+    }
+
+    .skills {
+        &_descr {
+            margin-top: 18px;
+            font-size: 19px;
+        }
+        &_wrap_item {
+            margin-top: 30px;
+            img {
+                height: 150px;
+                width: 100%;
+            }
+            .descr {
+                margin-top: 20px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .price {
+        min-height: 540px;
+        &_descr {
+            font-size: 19px;
+        }
+        &_wrap_item {   
+            margin-top: 30px;   
+            .head_title {
+                font-size: 15px;
+            }
+            .price_count {
+                font-size: 12px;
+                line-height: 16px;
+                span {
+                    font-size: 22px;
+                    line-height: 24px;
+                }
+            }
+            .descr {
+                margin-top: 14px;
+                font-size: 13px;
+                line-height: 18px;
+            }
+            .price_wrap_btn {
+                width: 80%;
+            }
+        }
+    }
+
+    .form_consultation {
+        .form {
+            flex-direction: column;
+            align-items: center;
+            padding: 70px 0 20px 0;
+        }
+    }
+
+    .scheme {
+        &_wrap_item {
+            img{
+                height: 40px;
+                width: 40px;
+            }
+                .descr {
+                    font-size: 14px;
+                }
+        }
+    }
+
+    .reviews {
+        .descr {
+            font-size: 19px;
+        }
+    }
+
+    .form_question {
+        .form {
+            width: 95%;
+            height: 400px;
+            &_titles {
+                width: 100%;
+            }
+            .form_quest {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                input {
+                    width: 268px;
+                    height: 45px;
+                    border-radius: 20px;
+                    margin-bottom: 8px;
+                    margin: 0 5px 14px 5px;
+                    border: 1px solid rgba(0,0,0,0.3);
+                    padding: 0 17px;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+                textarea {
+                    width: 268px;
+                    max-height: 80px;
+    
+    
+                }
+            }
+        }
+    }
+
+    .map {
+        &_info {
+        left: 55%;
+        height: 260px;
+        width: 280px;
+        }
+    }
+
+    footer{
+        .globalopt {
+            &_descr {
+             margin-left: 10px;
+             margin-right: 10px;
+             text-align: center;
+             width: 350px;
+             font-size: 14px;
+            }
+            .ask_footer {
+                text-align: center;
+                &_call{
+                     font-size: 12px;
+                 }
+                 &_phone {
+                     font-size: 14px;
+                 }
+                 margin-right: 5px;
+             }
+             .call_back {
+                 width: 100px;
+                 height: 40px;
+                 font-size: 10px;
+             }
+         }
+    }
+    
+}
+@media (max-width: 767px) {
+    header {
+        .head {
+            .call_back{
+               display: none;
+            }
+        }
+    }
+
+    .promo {
+        &_elwrapper {
+            &_item {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .skills {
+        &_wrap_item {
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .map {
+        &_info {
+            display: none;
+        }
+    }
+
+    footer {
+        .globalopt {
+            &_descr {
+             font-size: 12px;
+            }
+            .ask_footer {
+               display: none;
+             }
+             .call_back {
+                 width: 100px;
+                 height: 40px;
+                 font-size: 8px;
+             }
+         }
+    }
+}
+@media (max-width: 575px) {
+    .head {
+        .ask {
+            margin-top: 50px;
+            &_call{
+                display: none;
+            }
+        }
+        .call_back{
+            width: 160px;
+            height: 45px;
+            font-size: 12px;
+            line-height: 22px;
+            font-weight: 400;
+        }
+    }
+
+    .promo {
+        &_before_title {
+            font-size: 18px;
+        }
+        &_title {
+            margin-top: 15px;
+            font-size: 35px;
+        }
+        &_sub_title {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        &_elwrapper {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-top: 15px;
+            &_item {
+                margin-top: 15px;
+                .text {
+                    font-size: 14px;
+                }
+            }
+        }
+        &_get_btn {
+            width: 160px;
+            height: 42px;
+            font-size: 13px;
+        }
+    }
+
+    .advantages {
+
+        &_wrap_item {
+            .descr {
+                font-size: 13px;
+            }
+        }
+    }
+
+    span {
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 700;
+        color: $text_color;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    footer {
+        .copy {
+            &_right {
+                text-align: center;
+            }
+            &_politic {
+                text-align: center;
+            }
+            &_copy {
+                text-align: center;
+            }
+        }
+    }
+}
